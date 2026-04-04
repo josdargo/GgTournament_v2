@@ -1,4 +1,7 @@
 package co.com.bancolombia.model.teamuser.gateways;
 
-public interface TeamUserRepository {
+import co.com.bancolombia.model.general.gateways.CrudRepository;
+import co.com.bancolombia.model.teamuser.TeamUser;
+
+public interface TeamUserRepository extends CrudRepository<TeamUser, Long> {
 }

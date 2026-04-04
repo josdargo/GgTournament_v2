@@ -11,4 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class MatchTeam {
+    private Long id;
+    private Long matchId;
+    private Long teamId;
+    private String comment;
 }

@@ -11,4 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class TournamentModerator {
+    private Long id;
+    private Long tournamentId;
+    private Long userId;
 }
