@@ -11,4 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class TournamentTeam {
+    private Long id;
+    private Long tournamentId;
+    private Long teamId;
+    private String teamState;
 }

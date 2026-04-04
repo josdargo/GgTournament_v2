@@ -11,4 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class TeamUser {
+    private Long id;
+    private Long teamId;
+    private Long userId;
+    private String role;
 }

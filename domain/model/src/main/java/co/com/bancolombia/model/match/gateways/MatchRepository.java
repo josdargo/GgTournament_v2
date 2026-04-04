@@ -1,4 +1,7 @@
 package co.com.bancolombia.model.match.gateways;
 
-public interface MatchRepository {
+import co.com.bancolombia.model.general.gateways.CrudRepository;
+import co.com.bancolombia.model.match.Match;
+
+public interface MatchRepository extends CrudRepository<Match, Long> {
 }
